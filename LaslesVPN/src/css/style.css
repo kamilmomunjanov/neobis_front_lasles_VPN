@@ -18,7 +18,7 @@
     column-gap: 150px;
     justify-content: center;
     align-items: center;
-    padding-top: 45.62px;
+    padding-top: 46px;
 }
 
 .header-nav-link{
@@ -75,23 +75,25 @@
     border: 1px solid transparent;
     width: 150px;
     height: 45px;
+    transition: .5s;
 }
 
 .header-button:hover{
     color: #F53855;
     border: 1px solid #F53855;
     border-radius: 50px;
+    transition: .8s;
 }
 
-.first-section{
-    margin-top: 116.15px;
+.about{
+    margin-top: 116px;
 }
-.first-section-info{
+.about-info{
     display: flex;
     justify-content: space-between;
 }
 
-.first-section-title{
+.about-title{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -102,7 +104,7 @@
     margin-bottom: 20px;
 }
 
-.first-section-subtitle{
+.about-subtitle{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -113,14 +115,14 @@
     margin-bottom: 50px;
 }
 
-.first-section-button{
+.about-button{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     color: #FFFFFF;
-    padding: 17.5px 77.5px;
+    padding: 18px 78px;
     background: #F53838;
     border-radius: 10px;
     border: none;
@@ -139,7 +141,7 @@
 .metadata{
     width: 33.333333%;
     display: flex;
-    column-gap: 36.5px;
+    column-gap: 37px;
     justify-content: center;
     align-items: center;
 }
@@ -174,7 +176,7 @@
     content: '';
     position: absolute;
     width: 2px;
-    height: 125.57px;
+    height: 126px;
     background: #EEEFF2;
     left: 0;
 }
@@ -182,34 +184,34 @@
     content: '';
     position: absolute;
     width: 2px;
-    height: 125.57px;
+    height: 126px;
     background: #EEEFF2;
     right: 0;
 }
 
-.section-two{
+.features{
     margin-top: 150px;
 }
 
-.section-two-info{
+.features-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-two-title{
+.features-title{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 50px;
     color: #0B132A;
-    width: 383.41px;
+    width: 383px;
     height: 100px;
     margin-bottom: 20px;
 }
 
-.section-two-subtitle{
+.features-subtitle{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -217,27 +219,37 @@
     line-height: 30px;
     color: #4F5665;
     margin-bottom: 20px;
-    width: 427.88px;
+    width: 428px;
     height: 60px;
 }
 
-.section-two-lists{
+.features-lists{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
+.features-list{
+    width: 179px;
+    height: 30px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
 
-.section-two-check{
+.features-check{
     display: flex;
     column-gap: 10px;
     align-items: center;
 }
 
-.section-three{
+.pricing{
     margin-top: 80px;
 }
 
-.section-three-title{
+.pricing-title{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -245,12 +257,12 @@
     line-height: 50px;
     text-align: center;
     color: #0B132A;
-    width: 383.41px;
+    width: 383px;
     height: 50px;
     margin: 0 auto 20px;
 }
 
-.section-three-subtitle{
+.pricing-subtitle{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -262,4 +274,384 @@
     height: 60px;
     margin: 0 auto 60px;
 }
+
+
+.pricing-card{
+    display: flex;
+    column-gap: 50px;
+}
+
+.pricing-card-info{
+    padding: 50px 0;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    max-width: 330px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .8s;
+}
+.pricing-card-info:hover{
+    border: 2px solid #F53838;
+    transform: scale(.9);
+    transition: .6s;
+}
+
+.pricing-card-box{
+    margin-bottom: 20px;
+}
+
+.pricing-card-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-bottom: 30px;
+}
+.pricing-card-tariff{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pricing-card-lists{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pricing-card-list{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.pricing-card-subtitle{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.indent-free{
+    margin: 130px 0 20px 0;
+}
+.indent-pay{
+    margin: 90px 0 20px 0;
+}
+.indent-traffic{
+    margin: 50px 0 20px 0;
+}
+
+.pricing-card-btn{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    padding: 13px 63px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background: transparent;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.pricing-card-btn:hover{
+    color: #FFFFFF;
+    background: #F53838;
+    transition: .6s;
+}
+
+.testimonials{
+    padding-top: 150px;
+}
+
+.testimonials-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    width: 383px;
+    margin: 0 auto 20px;
+}
+
+.testimonials-subtitle{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+}
+
+.testimonials-map-img{
+    margin-top: 156px;
+    margin-bottom: 7px;
+    max-width: 1060px;
+    width: 100%;
+}
+
+.testimonials-app-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.testimonials-img{
+    transition: .5s;
+}
+
+.testimonials-img:hover{
+    transform: scale(.8);
+    transition: .5s;
+}
+
+.help{
+    padding-top: 50px;
+    padding-bottom: 302px;
+    position: relative;
+}
+
+/*.help::after{*/
+/*    content: url("../images/help/right.svg");*/
+/*    position: absolute;*/
+/*    cursor: pointer;*/
+/*    bottom: 138px;*/
+/*    right: 60px;*/
+/*}*/
+
+.help-title{
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.help-subtitle{
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+.up-text{
+    padding-top: 20px;
+}
+
+.help-card{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.help-card::before{
+    content: url("../images/help/Group.svg");
+    position: absolute;
+    bottom: -83px;
+    cursor: pointer;
+}
+/*.help-card::after{*/
+/*    content: url("../images/help/left.svg");*/
+/*    position: absolute;*/
+/*    cursor: pointer;*/
+/*    bottom: -106px;*/
+/*    right: 80px;*/
+/*}*/
+
+
+.help-card-info{
+    padding: 30px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    transition: .5s;
+}
+
+.help-card-info:hover{
+    border: 2px solid #F53838;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.help-card-info-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-card-info-meta{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.help-card-info-rating{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.help-card-info-text{
+    margin-top: 27px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.arrow-position{
+    position: relative;
+}
+
+.arrow-position:hover{
+    transform: scale(1)!important;
+}
+
+.arrow-position::after{
+    content: url("../images/help/right.svg");
+    position: absolute;
+    cursor: pointer;
+    bottom: -165px;
+    right: -45px;
+}
+
+.arrow-position::before{
+    content: url("../images/help/left.svg");
+    position: absolute;
+    cursor: pointer;
+    bottom: -106px;
+    right: 80px;
+}
+
+.help-subscribe{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    height: 233px;
+    width: 100%;
+    bottom: -116px;
+    box-shadow: 8px 14px 49px 21px rgba(34, 60, 80, 0.2);
+}
+
+.help-subscribe-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+    width: 372px;
+    margin-bottom: 20px;
+}
+
+.help-subscribe-subtitle{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.help-subscribe-btn{
+    color: #FFFFFF;
+    padding: 18px 65px;
+    background: #F53838;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    padding: 180px 0 100px;
+    background: #F8F8F8;
+}
+
+.footer-nav{
+    display: flex;
+    margin-top: 64px;
+}
+.footer-nav-logo{
+    width: 40%;
+}
+
+.footer-nav-logotype{
+    margin-bottom: 10px;
+}
+
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.footer-nav-item{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    cursor: pointer;
+}
+.footer-nav-text{
+    width: 340px;
+}
+
+.footer-nav-icon{
+    cursor: pointer;
+}
+
+.footer-nav-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.footer-nav-sections{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
 
