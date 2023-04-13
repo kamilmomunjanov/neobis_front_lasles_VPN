@@ -57,6 +57,13 @@
     line-height: 19px;
     color: #4F5665;
     cursor: pointer;
+    transition: .4s;
+}
+
+.header-link:hover{
+    color: #F53838;
+    text-decoration: underline;
+    transition: .4s;
 }
 
 .header-sign{
@@ -82,6 +89,7 @@
     color: #F53855;
     border: 1px solid #F53855;
     border-radius: 50px;
+    box-shadow: 4px 7px 32px -3px rgba(34, 60, 80, 0.47);
     transition: .8s;
 }
 
@@ -127,6 +135,11 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: .5s;
+}
+.about-button:hover{
+    box-shadow: 4px 7px 32px 12px rgba(34, 60, 80, 0.29);
+    transition: .5s;
 }
 
 .meta{
@@ -295,7 +308,6 @@
 }
 .pricing-card-info:hover{
     border: 2px solid #F53838;
-    transform: scale(.9);
     transition: .6s;
 }
 
@@ -371,6 +383,7 @@
 .pricing-card-btn:hover{
     color: #FFFFFF;
     background: #F53838;
+    box-shadow: 4px 7px 32px 7px rgba(34, 60, 80, 0.29);
     transition: .6s;
 }
 
@@ -414,14 +427,6 @@
     cursor: pointer;
 }
 
-.testimonials-img{
-    transition: .5s;
-}
-
-.testimonials-img:hover{
-    transform: scale(.8);
-    transition: .5s;
-}
 
 .help{
     padding-top: 50px;
@@ -488,14 +493,9 @@
     border-radius: 10px;
     max-width: 400px;
     width: 100%;
-    transition: .5s;
 }
 
-.help-card-info:hover{
-    border: 2px solid #F53838;
-    transform: scale(1.1);
-    transition: .5s;
-}
+
 
 .help-card-info-person{
     display: flex;
@@ -524,14 +524,16 @@
     line-height: 30px;
     color: #0B132A;
 }
-
 .arrow-position{
-    position: relative;
+    transition: .5s;
 }
 
 .arrow-position:hover{
-    transform: scale(1)!important;
+    border: 2px solid #F53838;
+    transition: .5s;
+
 }
+
 
 .arrow-position::after{
     content: url("../images/help/right.svg");
@@ -540,6 +542,7 @@
     bottom: -165px;
     right: -45px;
 }
+
 
 .arrow-position::before{
     content: url("../images/help/left.svg");
@@ -625,6 +628,10 @@
     color: #4F5665;
     cursor: pointer;
 }
+.footer-nav-item:hover{
+    text-decoration: underline;
+}
+
 .footer-nav-text{
     width: 340px;
 }
